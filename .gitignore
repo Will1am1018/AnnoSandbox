@@ -1,0 +1,45 @@
+# Ignore Database
+db/anno sandbox.db
+
+# Ignore logs
+log/*.log
+
+# Ignore analyses
+storage/*
+
+# Ignore Python byte code
+*.pyc
+
+# Ignore certificates
+*.pem
+*.cert
+
+# Ignore OS generated files
+.DS_Store*
+.AppleDouble
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Ignore development files
+docs/book/src/_build/
+.idea/
+.project
+.pydevproject
+
+# Ignore Django secret_key
+web/web/secret_key.py
+
+# Ignore yara rules
+data/yara/index_*.yar
+
+# Ignore venv
+venv
+
+# Ignore sample data
+sample_data/
+
+# Ignore Jupyter Notebook examples' checkpoints
+examples/.ipynb_checkpoints
+/data/monitor/
+/modules/signatures/
